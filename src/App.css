@@ -1,38 +1,60 @@
+body{
+  background-color: whitesmoke;
+}
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.div-1{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 20%;
+  background-color: rgb(19, 19, 19);
+}
+.images-logo{
+  width: 10%;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.logo-div{
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hr-div{
+  border-bottom: 1px solid rgb(172, 168, 168);
+}
+.div-2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+.second-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 17px;
+}
+.hello{
+  padding: 17px;
+  display: flex;
+  flex-direction: row;
+}
+.btn{
+  background-color: black;
+  color: white;
+  width: 110px;
+  height:40px;
+  border-radius: .3em;
+}
+.cards{
+  background-image: linear-gradient(rgb(48, 24, 48),blue);
+  width: 60%;
+  height: 170px;
+  padding: 20px;
+  margin-top: 2em;
+  color: white;
+  border-radius: .3em;
 }
